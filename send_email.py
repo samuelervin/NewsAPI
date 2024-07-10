@@ -11,7 +11,7 @@ def send_mail(sender, subject, message):
     host = "smtp.gmail.com"
     port = 465 
     username = "samuel.ervin@gmail.com"
-    password = "pmly bkvc pgft vrjj"
+    password = ""
     my_context = ssl.create_default_context()
     #may get ascii error if so encode message to utf-8 message.encode('utf-8')
     final_message = f"Subject: {subject}\n\n From: {sender}\n\n {message}"
